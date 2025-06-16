@@ -28,6 +28,22 @@
     </style>
 </head>
 <body class="bg-gray-900 text-gray-100 flex flex-col min-h-screen">
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 p-4 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto flex flex-wrap justify-center md:justify-between items-center">
+            <a href="#" class="text-white text-2xl font-bold rounded-md px-3 py-2 hover:bg-gray-700 transition-colors duration-200">Engineering Branches</a>
+            <div class="flex flex-wrap justify-center mt-4 md:mt-0 space-x-2 md:space-x-4">
+                <a href="#core-branches" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Core</a>
+                <a href="#interdisciplinary-branches" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Interdisciplinary</a>
+                <a href="#emerging-branches" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Emerging</a>
+                <a href="#frontier-branches" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Frontier</a>
+                <a href="#infrastructure-branches" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Infrastructure</a>
+                <a href="#cognitive-branches" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Cognitive</a>
+                <a href="#artisan-branches" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Artisan</a>
+            </div>
+        </div>
+    </nav>
+
     <div class="container mx-auto px-4 py-8 flex-grow">
         <header class="text-center mb-12">
             <h1 class="text-5xl md:text-6xl font-extrabold text-blue-400 leading-tight">
@@ -40,7 +56,7 @@
 
         <main class="space-y-16">
             <!-- Core Engineering Branches -->
-            <section class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
+            <section id="core-branches" class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
                 <h2 class="text-4xl font-bold text-teal-400 mb-8 text-center">
                     <span class="mr-3">🧱</span>CORE ENGINEERING BRANCHES
                     <span class="block text-2xl font-normal text-gray-400">(Fundamental Disciplines)</span>
@@ -161,7 +177,7 @@
             </section>
 
             <!-- Interdisciplinary Engineering Branches -->
-            <section class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
+            <section id="interdisciplinary-branches" class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
                 <h2 class="text-4xl font-bold text-teal-400 mb-8 text-center">
                     <span class="mr-3">🔄</span>INTERDISCIPLINARY ENGINEERING BRANCHES
                 </h2>
@@ -281,7 +297,7 @@
             </section>
 
             <!-- Emerging Engineering Branches -->
-            <section class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
+            <section id="emerging-branches" class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
                 <h2 class="text-4xl font-bold text-teal-400 mb-8 text-center">
                     <span class="mr-3">🌱</span>EMERGING ENGINEERING BRANCHES
                 </h2>
@@ -401,7 +417,7 @@
             </section>
 
             <!-- Frontier Engineering Branches -->
-            <section class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
+            <section id="frontier-branches" class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
                 <h2 class="text-4xl font-bold text-teal-400 mb-8 text-center">
                     <span class="mr-3">🚀</span>FRONTIER ENGINEERING BRANCHES
                 </h2>
@@ -521,7 +537,7 @@
             </section>
 
             <!-- Infrastructure & Platform Engineering Branches -->
-            <section class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
+            <section id="infrastructure-branches" class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
                 <h2 class="text-4xl font-bold text-teal-400 mb-8 text-center">
                     <span class="mr-3">⚙️</span>INFRASTRUCTURE & PLATFORM ENGINEERING BRANCHES
                 </h2>
@@ -591,7 +607,7 @@
             </section>
 
             <!-- Cognitive, Social & Behavioral Engineering -->
-            <section class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
+            <section id="cognitive-branches" class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
                 <h2 class="text-4xl font-bold text-teal-400 mb-8 text-center">
                     <span class="mr-3">🧠</span>COGNITIVE, SOCIAL & BEHAVIORAL ENGINEERING
                 </h2>
@@ -641,7 +657,7 @@
             </section>
 
             <!-- Artisan & Creative Engineering Branches -->
-            <section class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
+            <section id="artisan-branches" class="bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-700">
                 <h2 class="text-4xl font-bold text-teal-400 mb-8 text-center">
                     <span class="mr-3">🛠️</span>ARTISAN & CREATIVE ENGINEERING BRANCHES
                 </h2>
